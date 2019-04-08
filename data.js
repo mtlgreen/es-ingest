@@ -27,3 +27,17 @@ client.indices.create({
       console.log("created a new index", response);
   }
 });
+
+// add a data to the index that has already been created
+client.index({
+  index: 'scotch.io-tutorial',
+  id: '1',
+  type: 'cities_list',
+  body: {
+      "Key1": "Content for key one",
+      "Key2": "Content for key two",
+      "key3": "Content for key three",
+  }
+}, function(err, resp, status) {
+  console.log(resp);
+});

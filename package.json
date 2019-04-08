@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mtlgreen/es-ingest/issues"
   },
-  "homepage": "https://github.com/mtlgreen/es-ingest#readme"
+  "homepage": "https://github.com/mtlgreen/es-ingest#readme",
+  "dependencies": {
+    "elasticsearch": "^15.4.1"
+  }
 }

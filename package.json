@@ -1,0 +1,24 @@
+{
+  "name": "es-ingest",
+  "version": "0.0.1",
+  "description": "ingest data into an es cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtlgreen/es-ingest.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "node",
+    "data"
+  ],
+  "author": "paul@cuciureanu@ubisoft.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtlgreen/es-ingest/issues"
+  },
+  "homepage": "https://github.com/mtlgreen/es-ingest#readme"
+}

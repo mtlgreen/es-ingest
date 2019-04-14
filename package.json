@@ -4,6 +4,8 @@
   "description": "ingest data into an es cluster",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/mtlgreen/es-ingest#readme",
   "dependencies": {
-    "elasticsearch": "^15.4.1"
+    "elasticsearch": "^15.4.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
   }
 }
